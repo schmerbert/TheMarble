@@ -1,0 +1,10 @@
+{
+  "pack": "repo",
+  "count": 25,
+  "formats": [
+    "records/*.md",
+    "repo_records.jsonl",
+    "repo_records.csv"
+  ],
+  "purpose": "Dense synthetic Wild stress-test records with authority, status, chronology, supersession, and traps."
+}

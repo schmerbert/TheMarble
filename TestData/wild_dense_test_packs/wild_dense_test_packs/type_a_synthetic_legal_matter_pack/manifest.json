@@ -1,0 +1,10 @@
+{
+  "pack": "legal",
+  "count": 25,
+  "formats": [
+    "records/*.md",
+    "legal_records.jsonl",
+    "legal_records.csv"
+  ],
+  "purpose": "Dense synthetic Wild stress-test records with authority, status, chronology, supersession, and traps."
+}

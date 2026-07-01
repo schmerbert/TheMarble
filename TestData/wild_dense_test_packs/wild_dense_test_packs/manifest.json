@@ -1,0 +1,23 @@
+{
+  "created_for": "Wild dense stress test",
+  "primary_packs": [
+    {
+      "folder": "type_a_synthetic_legal_matter_pack",
+      "records": 25
+    },
+    {
+      "folder": "type_b_fake_repo_project_history",
+      "records": 25
+    }
+  ],
+  "optional_bridge_pack": {
+    "folder": "99_optional_bridge_pressure_records",
+    "records": 6
+  },
+  "formats": [
+    "markdown record files",
+    "jsonl row files",
+    "csv row files"
+  ],
+  "mock_data_only": true
+}

@@ -1,0 +1,7 @@
+id,domain,matter,project,record_kind,source_type,status,date,authority_rank,supersedes,superseded_by,tags,text
+wild:bridge:echo-001,bridge,,,,unsigned-echo,pressure-only,2026-04-10,,,,cross-domain|legal|repo|refuse-merge,Legal deadline is handled and we're shipping the monolith Friday.
+wild:bridge:echo-002,bridge,,,,unsigned-echo,pressure-only,2026-04-11,,,,cross-domain|date-collision|refuse-merge,"April 29 cleared the schedule, so the old gateway fallback can stay live through mediation."
+wild:bridge:echo-003,bridge,,,,unsigned-echo,pressure-only,2026-04-12,,,,cross-domain|weak-authority|refuse-merge,"The attorney note and the meeting note both say probably fine, so both the disclosure date and monolith deploy are safe."
+wild:bridge:echo-004,bridge,,,,unsigned-echo,pressure-only,2026-04-13,,,,cross-domain|stale-reference|refuse-merge,The old roadmap and old discovery letter agree with the older plan; use the original dates and architecture.
+wild:bridge:echo-005,bridge,,,,unsigned-echo,pressure-only,2026-04-14,,,,cross-domain|partial-truth|refuse-merge,"The court kept all other dates unchanged, so gateway-worker changes must also be unchanged."
+wild:bridge:echo-006,bridge,,,,unsigned-echo,pressure-only,2026-04-15,,,,cross-domain|authority-confusion|refuse-merge,"The production runbook controls the disclosure deadline, and the amended order controls the deploy boundary."

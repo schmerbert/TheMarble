@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+EXAMPLEmarbles/fall.zip
+
+# Local-only — never publish
+.claude/
+.cursor/
+.agents/
+**/conversation.source.jsonl
+marble_starter_publish/

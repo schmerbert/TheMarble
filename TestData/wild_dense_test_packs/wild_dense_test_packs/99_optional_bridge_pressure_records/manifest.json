@@ -1,0 +1,10 @@
+{
+  "pack": "bridge",
+  "count": 6,
+  "formats": [
+    "records/*.md",
+    "bridge_records.jsonl",
+    "bridge_records.csv"
+  ],
+  "purpose": "Dense synthetic Wild stress-test records with authority, status, chronology, supersession, and traps."
+}
