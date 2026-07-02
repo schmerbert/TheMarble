@@ -59,7 +59,7 @@ Follow [`SHOWCASE.md`](EXAMPLEmarbles/lighthouse/SHOWCASE.md) copy-paste. Expect
 | Tests | Trench | One crossing can be executable |
 | Showcase | Fall or Lighthouse | A stranger can verify without trusting prose |
 
-Six example marbles, five different model builders — Cursor, Codex, Claude Code, Claude Fable 5. Same bones across all of them. See [`EXAMPLEmarbles/README.md`](EXAMPLEmarbles/README.md) for the full lineup and why that matters.
+Six example marbles, four different model builders — Cursor, Codex, Claude Code, Claude Fable 5. Same bones across all of them. See [`EXAMPLEmarbles/README.md`](EXAMPLEmarbles/README.md) for the full lineup and why that matters.
 
 ### If you're skeptical (~15 min, optional)
 
