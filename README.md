@@ -30,6 +30,17 @@ A prompt gives the model instructions.
 
 A marble gives the next model working conditions.
 
+## Why would you want one?
+
+You already have this problem; you just know it by other names.
+
+- **Your agent confidently remembers something wrong.** A summary from three sessions ago comes back as fact. A model's guess got written down, and now every future session inherits it as if you said it. A marble labels stored context by where it came from — user-decided, model-inferred, unverified — so the next session can tell ground from guesswork. (The manual calls this false ground; it's the one law every marble enforces.)
+- **Your CLAUDE.md / memory file rots.** It grows, drifts, contradicts the code, and no one notices because nothing checks it. A marble splits **tended** from **raw**: raw material is kept but never trusted; anything promoted to trusted ground passes a gate that can refuse — and the refusal is a test you can run. (See `trench` — seven tests on one gate.)
+- **Every new session starts from zero, or worse, from a stale transcript.** Cold starts are expensive; inherited transcripts are misleading. A marble's handoff separates *decided / open / do-not-trust-yet / do-first*, so the next arrival — tomorrow's session, a different model entirely — starts from labeled conditions instead of archaeology. (Six specimens were built by four different models for exactly this reason.)
+- **Long-running work outlives any one context window.** Research across weeks, a legal reference desk, a fiction canon, a personal memory system — anywhere "the model forgot" is less dangerous than "the model misremembers." (See `lighthouse` for truth-under-pressure, `reference_desk` for a domain example, `cabin` for a full memory engine.)
+
+If none of these have bitten you yet, you may not need a marble. Bookmark it for the day one does.
+
 ## Layout
 
 ```text
