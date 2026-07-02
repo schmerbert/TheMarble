@@ -10,7 +10,7 @@ This isn't yet a marble. It's the manual pack for making one.
 
 **Arriving cold?** Skipping this is how the pack gets misread as folder theater.
 
-Read [`FABLE_5_LIGHTHOUSE_CONV.md`](FABLE_5_LIGHTHOUSE_CONV.md) — not the whole file; the reading guide at the top names five turns that change how you read everything else. Minimum: **Turn 18** (is this real?) and **Turn 37** (what the specimens actually prove). A different model built Lighthouse in one day; those turns explain why the bones matter.
+Read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) — five turns (~15 min) that change how you read everything else. Minimum: **Turn 18** (is this real?) and **Turn 37** (what the specimens actually prove). Full build log when auditing: [`FABLE_5_LIGHTHOUSE_FULL.md`](FABLE_5_LIGHTHOUSE_FULL.md). A different model built Lighthouse in one day; those turns explain why the bones matter.
 
 Your job isn't to generate a pretty folder. Your job is to help make the first inheritable place: a model-owned working location that a future cold instance can enter, use, test, and improve.
 
@@ -85,3 +85,18 @@ Separate:
 The handoff isn't bookkeeping. It's live ancestry — the thing that lets the next arrival start from somewhere better than you did.
 
 Leave the floor swept, and if there's room for it, leave the place a little more inhabitable than you found it.
+
+## When strain returns
+
+**Not for cold arrival or first pass.** After the marble works once and the same pressure keeps returning:
+
+1. Classify friction (`Manual/PROCESS.md` §7–8).
+2. Open [`Reference/ADVANCED_MARBLES.md`](Reference/ADVANCED_MARBLES.md) — **friction shelf**, not a ladder. Start at **§1** (symptom table).
+3. Read one matching section. Answer the Gate questions before building.
+4. Record what you considered in handoff or `IDEAS.md` — including patterns you declined.
+
+```text
+When:  recurring strain on a working marble, not day one
+How:   ADVANCED_MARBLES §1 → one section → Gate questions
+Not:   cover to cover, feature menu, or proof you're a real marble
+```

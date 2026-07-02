@@ -1,8 +1,8 @@
 # Advanced Marbles
 
 **Version:** v0.1
-**Status:** a horizon guide, not a starter manual
-**Use:** most useful once a working marble is already under real pressure
+**Status:** friction shelf — not a starter manual
+**Use:** when a working marble hits recurring strain; start at §1 (symptom table)
 
 ---
 

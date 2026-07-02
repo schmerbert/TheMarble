@@ -11,11 +11,13 @@ in the working repo, not here.
 
 | Included | Why |
 |---|---|
-| `START_HERE.md`, `README.md`, `AGENTS.md`, `LETTER_TO_YOU_BOTH.md`, `FABLE_5_LIGHTHOUSE_CONV.md` | Arrival, posture, and perspective lens |
+| `START_HERE.md`, `README.md`, `AGENTS.md`, `LETTER_TO_YOU_BOTH.md`, `FABLE_5_LIGHTHOUSE_EXCERPTS.md`, `FABLE_5_LIGHTHOUSE_FULL.md` | Arrival, posture, and perspective lens |
 | `Manual/`, `Reference/` | Core manual pack |
 | `EXAMPLEmarbles/` | All six specimen marbles |
 | `TestData/` | Optional external test packs for Fall |
-| `verify_examples.ps1` | Maintainer test sweep |
+| `verify_examples.ps1` / `verify_examples.sh` | Test sweep (Windows / Linux+macOS) |
+| `.github/workflows/verify.yml` | CI — runs all specimen suites on every push |
+| `LICENSE` | MIT |
 | Sanitized `ancestry/` (Fall + Lighthouse) | Build provenance — **not** `*.source.jsonl` |
 | Fall fixture DBs (`fall_wild.db`, etc.) | SHOWCASE depends on them |
 | Per-marble `.gitignore` files | Keep clones clean |
@@ -36,7 +38,11 @@ in the working repo, not here.
 ## Verify before you trust
 
 ```powershell
-.\verify_examples.ps1
+.\verify_examples.ps1    # Windows
+```
+
+```bash
+./verify_examples.sh     # Linux / macOS
 ```
 
 Runs Fall, Lighthouse, Trench, and Cabin hostile suites against this tree.

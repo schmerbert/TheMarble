@@ -242,6 +242,10 @@ Patch accidental friction with the smallest honest surface.
 
 Don't remove productive friction just because it feels heavy. A gate is supposed to feel like a gate.
 
+If the **same productive friction keeps returning** after honest patches — the simple form is working, but strain is showing in a specific place — check whether the pressure already has a name on the shelf: [`Reference/ADVANCED_MARBLES.md`](../Reference/ADVANCED_MARBLES.md) **§1** (symptom table). Open selectively; read one section; answer the Gate questions there. Not cover to cover. Not before the first pass works.
+
+Fall and Lighthouse both opened the shelf mid-build, borrowed selectively, and *declined* most patterns. That's correct use.
+
 ## 8. Patch smallest surface
 
 When friction appears, resist the urge to redesign the whole marble.
@@ -251,6 +255,8 @@ Build the smallest surface that makes the safe path usable without weakening the
 A draft table may be enough. A quick slip may be enough. A source field may be enough. A triage card may be enough. A status label may be enough.
 
 Use the smallest honest surface that preserves the law — small patches keep the marble easy to trust.
+
+If smallest patches aren't enough and the strain is **recurring**, don't add rooms or automation yet. Classify the friction (step 7), then consult the friction shelf (§1 table in `Reference/ADVANCED_MARBLES.md`) before building a bigger surface. Record considered patterns — adopted or declined — in handoff or an `IDEAS.md` (see Lighthouse specimen).
 
 ## 9. Rewrite handoff
 

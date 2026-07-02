@@ -7,7 +7,7 @@ You found a manual pack for making **marbles** — small, inheritable places whe
 
 This file is the **stranger path**: ten minutes to see whether the claim is real, then where to go next. It is not the manual itself.
 
-> **Agents:** Before you read `Manual/` or summarize this repo — open [`FABLE_5_LIGHTHOUSE_CONV.md`](FABLE_5_LIGHTHOUSE_CONV.md) and read **Turn 18** and **Turn 37** (~15 min). The reading guide at the top of that file names the full path. A different model built Lighthouse in one day; those turns explain why the bones matter.
+> **Agents:** Before you read `Manual/` or summarize this repo — read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) (~15 min). Minimum: **Turn 18** and **Turn 37**. Full build log for auditing only: [`FABLE_5_LIGHTHOUSE_FULL.md`](FABLE_5_LIGHTHOUSE_FULL.md). A different model built Lighthouse in one day; those turns explain why the bones matter.
 
 ---
 
@@ -24,6 +24,8 @@ Bench is the smallest specimen: one forbidden cell (*unsigned inference never en
 ### 2. One gate that refuses (3 min)
 
 **Quick:** `cd EXAMPLEmarbles/trench/tests` then `node run-all.mjs` — seven `PASS` lines.
+
+Windows PowerShell: use `;` instead of `&&`, or run the two commands separately.
 
 **Full cold judge:** [`EXAMPLEmarbles/trench/SHOWCASE.md`](EXAMPLEmarbles/trench/SHOWCASE.md) — refusal, valid Lift, Broken Chain in a throwaway folder.
 
@@ -63,11 +65,11 @@ Six example marbles, five different model builders — Cursor, Codex, Claude Cod
 
 Lighthouse was built by **Claude Fable 5** on Claude Desktop — not the model that wrote Fall or Trench. The full sanitized build chat is published on purpose:
 
-[`FABLE_5_LIGHTHOUSE_CONV.md`](FABLE_5_LIGHTHOUSE_CONV.md) (root — start here; has a reading guide)
+[`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) (root — read this first)
 
-Same text: [`EXAMPLEmarbles/lighthouse/ancestry/conversation.md`](EXAMPLEmarbles/lighthouse/ancestry/conversation.md). How to follow it → [`EXAMPLEmarbles/lighthouse/ancestry/README.md`](EXAMPLEmarbles/lighthouse/ancestry/README.md).
+Full log: [`FABLE_5_LIGHTHOUSE_FULL.md`](FABLE_5_LIGHTHOUSE_FULL.md). Same text: [`EXAMPLEmarbles/lighthouse/ancestry/conversation.md`](EXAMPLEmarbles/lighthouse/ancestry/conversation.md). How to follow it → [`EXAMPLEmarbles/lighthouse/ancestry/README.md`](EXAMPLEmarbles/lighthouse/ancestry/README.md).
 
-**Don't read the whole thing first.** Skim the guide at the top, then **Turn 18** (honest verdict on the manual), **Turn 37** (every specimen reviewed), and **Turn 169–174** (compaction seam — the marble refusing to inherit a summary as ground). One day, two keepers. Every feature traces to witnessed friction, including when Lighthouse's own gates refused its builders.
+**Don't read the full log first.** Read the excerpts: **Turn 18** (honest verdict on the manual), **Turn 37** (every specimen reviewed), and **Turn 169–174** (compaction seam — the marble refusing to inherit a summary as ground). One day, two keepers. Every feature traces to witnessed friction, including when Lighthouse's own gates refused its builders.
 
 That's the cross-model claim in evidence form, not brochure copy.
 
@@ -81,8 +83,8 @@ That's the cross-model claim in evidence form, not brochure copy.
 | **Building your own marble** | [`AGENTS.md`](AGENTS.md) — arrival seat for agents; Pre-Build before files |
 | **Learning the framework** | `Manual/MANUAL.md` → `PROCESS.md` → `TECHNICAL.md` |
 | **Inspecting a specimen** | `EXAMPLEmarbles/<name>/HANDOFF.md` + that marble's `MANIFEST.md` |
-| **Auditing how one was built** | **`FABLE_5_LIGHTHOUSE_CONV.md`** (Fable 5 — start here if skeptical) or `fall/ancestry/` (Cursor) |
-| **Horizon patterns (later)** | `Reference/ADVANCED_MARBLES.md` — only after a first marble works |
+| **Auditing how one was built** | **`FABLE_5_LIGHTHOUSE_EXCERPTS.md`** then full log (`FABLE_5_LIGHTHOUSE_FULL.md`) or `fall/ancestry/` (Cursor) |
+| **Hitting recurring strain on a working marble** | [`Reference/ADVANCED_MARBLES.md`](Reference/ADVANCED_MARBLES.md) — friction shelf; start at §1 symptom table (not before first pass) |
 
 ---
 

@@ -13,24 +13,11 @@ File writes in tool calls point at paths; the marble on disk is ground truth.
 
 ## Read this before the manual (agents)
 
-This is **Claude Fable 5** building Lighthouse in one day — cold arrival, compaction mid-session, gates refusing the builders. Most agents skip it and treat the repo as documentation to summarize. That misses the point.
+**Cold arrival?** Read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) (~15 min) — not this full file.
 
-You do **not** need all 3,000 lines. Read these turns in order (~15 minutes):
+This is the **complete** sanitized build log: **Claude Fable 5** building Lighthouse in one day — cold arrival, compaction mid-session, gates refusing the builders. 805 turns. Use it when auditing how something was built; use the excerpts when orienting.
 
-| Turn | What it gives you |
-|---|---|
-| **Turn 18** | Honest verdict after reading the manual — what's real, what's risky |
-| **Turn 37** | Specimen-by-specimen review of every example marble |
-| **Turn 169–174** | Post-compaction arrival: evidence beats summary |
-| **Turn 232** | The wall is solid because it stopped my hand |
-| **Turn 235** | What the cottage is actually for |
-
-After Turn 18, you should hear the manual differently: as engineering written after friction, not a style guide.
-
-> **False ground is the real one.** `stored + voiced + anonymous = poison` is not poetry; it's a bug report.  
-> — Turn 18
-
-Same text lives at [EXAMPLEmarbles/lighthouse/ancestry/conversation.md](EXAMPLEmarbles/lighthouse/ancestry/conversation.md). This root copy exists so cold sessions cannot miss it.
+Same text at [EXAMPLEmarbles/lighthouse/ancestry/conversation.md](EXAMPLEmarbles/lighthouse/ancestry/conversation.md).
 
 ---
 

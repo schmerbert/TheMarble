@@ -206,6 +206,8 @@ Questions:
 - Did the model have to improvise storage?
 - Did a name fail to help action?
 
+**Strain still returning after honest patches?** Check whether the pressure matches a named pattern in [`ADVANCED_MARBLES.md`](ADVANCED_MARBLES.md) §1. If borrowing a pattern, answer the Gate questions (§ The Gate) before building. Record adopted and declined patterns in handoff or `IDEAS.md`.
+
 ## 10. Daily-driver readiness
 
 Use this section only if the marble is intended for repeated daily use.
@@ -251,6 +253,8 @@ Notes:
 ## 12. Horizon control
 
 Has the marble built horizon features too early?
+
+**Correct use of the friction shelf:** `ADVANCED_MARBLES.md` is for recurring strain on a working marble — lookup via §1, one pattern at a time, Gate questions answered. Incorrect use: reading cover to cover, treating the table of contents as a feature menu, or adding forest/pond/window/imp before the floor holds.
 
 Check:
 

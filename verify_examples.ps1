@@ -24,19 +24,23 @@ function Step {
 }
 
 Step "Fall tests" {
-    Push-Location (Join-Path $root "EXAMPLEmarbles\fall")
+    Push-Location (Join-Path $root "EXAMPLEmarbles/fall")
     python -m unittest discover -s tests -p "test_*.py" -q
     Pop-Location
 }
 
 Step "Lighthouse tests" {
-    Push-Location (Join-Path $root "EXAMPLEmarbles\lighthouse")
+    Push-Location (Join-Path $root "EXAMPLEmarbles/lighthouse")
     python -m unittest discover -s tests -p "test_*.py" -q
     Pop-Location
 }
 
+Step "Arrival ref check" {
+    node (Join-Path $root "Reference/verify_arrival_refs.mjs")
+}
+
 Step "Trench gate suite" {
-    Push-Location (Join-Path $root "EXAMPLEmarbles\trench\tests")
+    Push-Location (Join-Path $root "EXAMPLEmarbles/trench/tests")
     node run-all.mjs
     Pop-Location
 }

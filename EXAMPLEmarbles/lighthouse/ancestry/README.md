@@ -54,6 +54,8 @@ Keep `conversation.source.jsonl` local only (see `.gitignore`).
 
 ## How to follow the build
 
+**Cold arrival?** Read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](../../../FABLE_5_LIGHTHOUSE_EXCERPTS.md) at the repo root first (~15 min). Full log also at [`FABLE_5_LIGHTHOUSE_FULL.md`](../../../FABLE_5_LIGHTHOUSE_FULL.md). This folder holds the canonical copy.
+
 1. Read **user turns** in `conversation.md` (or grep `"type":"user"` in the JSONL).
 2. Watch **tool calls** under each assistant turn — `Write`, `Bash`, `Read` show what changed on disk.
 3. Cross-check **files on disk** (`../`, tests, cottage journals). The repo state is ground truth; the chat is how we got there.
