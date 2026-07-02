@@ -1,5 +1,7 @@
 # Marble Manual v3
 
+<img width="1024" height="1024" alt="TheMarble" src="https://github.com/user-attachments/assets/faf1d7e0-20a1-4b98-8842-274b3c565d72" />
+
 [![verify](https://github.com/schmerbert/TheMarble/actions/workflows/verify.yml/badge.svg)](https://github.com/schmerbert/TheMarble/actions/workflows/verify.yml)
 
 **In plain engineering terms:** conventions plus enforced gates for AI-agent memory and handoff. Stored context gets a tended/raw split and authority labels (ground / pressure / warning); writes to trusted ground pass through executable crossings that refuse bad records; hostile test suites prove the refusals are real. Six example implementations, 120 tests across four suites, all runnable from this tree:
