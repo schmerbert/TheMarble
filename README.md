@@ -4,8 +4,17 @@
 
 <img width="400" height="400" alt="TheMarble" src="https://github.com/user-attachments/assets/faf1d7e0-20a1-4b98-8842-274b3c565d72" />
 
+**The problem:** AI agents inherit context they can't source — a summary from three sessions ago comes back as fact. A confident wrong memory is worse than no memory.
 
-**In plain engineering terms:** conventions plus enforced gates for AI-agent memory and handoff. Stored context gets a tended/raw split and authority labels (ground / pressure / warning); writes to trusted ground pass through executable crossings that refuse bad records; hostile test suites prove the refusals are real. Six example implementations, 120 tests across four suites, all runnable from this tree:
+**What this is:** A manual and six working specimens for *agent memory hygiene*: split tended from raw, label authority (ground / pressure / warning), gate writes to trusted ground, and prove refusal with hostile tests. Not a prompt pack. Not a product. Runnable evidence.
+
+**Prove it in three minutes:**
+```bash
+cd EXAMPLEmarbles/trench/tests && node run-all.mjs
+```
+
+**In plain engineering terms:** conventions plus enforced gates for AI-agent memory and handoff. 
+Stored context gets a tended/raw split and authority labels (ground / pressure / warning); writes to trusted ground pass through executable crossings that refuse bad records; hostile test suites prove the refusals are real. Six example implementations, 120 tests across four suites, all runnable from this tree:
 
 ```bash
 ./verify_examples.sh        # Linux/macOS — or .\verify_examples.ps1 on Windows
