@@ -19,20 +19,17 @@ Stored context gets a tended/raw split and authority labels (ground / pressure /
 ```bash
 ./verify_examples.sh        # Linux/macOS — or .\verify_examples.ps1 on Windows
 ```
-
-Or the two-minute version — one gate that actually refuses:
-
-```bash
-cd EXAMPLEmarbles/trench/tests && node run-all.mjs
-```
-
 The rest of this repo wraps that machinery in its own working vocabulary. A **marble** is a model-facing continuity environment: a small inheritable place for recurring AI work. This pack is the manual layer — laws, process, specimens, and verification — not a shipped application.
+
 
 **New here?** [`START_HERE.md`](START_HERE.md) — ten minutes, three steps, one cold judge demo.
 
+
 **Skeptical? Don't skim this pack and move on.** Read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) first (~15 min) — the turns that reframe the whole pack. Start with **Turn 18** and **Turn 37**. Full sanitized build log: [`FABLE_5_LIGHTHOUSE_FULL.md`](FABLE_5_LIGHTHOUSE_FULL.md) or [`EXAMPLEmarbles/lighthouse/ancestry/conversation.md`](EXAMPLEmarbles/lighthouse/ancestry/conversation.md). A summary is not evidence.
 
+
 **Maintainer notes?** [`PUBLISH.md`](PUBLISH.md) — what ships, what's excluded, how to verify and re-sanitize ancestry.
+
 
 ## Main sentence
 
