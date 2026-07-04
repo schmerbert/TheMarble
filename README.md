@@ -95,7 +95,7 @@ marble_starter/
 
 Full lineup, one-liners, **which model built each**, and why cross-model success matters → [`EXAMPLEmarbles/README.md`](EXAMPLEmarbles/README.md).
 
-Six marbles, five builders (Cursor, Codex, Claude Code, Claude Fable 5) — each landed an operable first pass with the same bones: forbidden cell, crossing, hostile test, handoff. The cross-model proof is not prose in this README: read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) first; full log at [`lighthouse/ancestry/conversation.md`](EXAMPLEmarbles/lighthouse/ancestry/conversation.md).
+Six marbles, four builders (Cursor, Codex, Claude Code, Claude Fable 5) — each landed an operable first pass with the same bones: forbidden cell, crossing, hostile test, handoff. The cross-model proof is not prose in this README: read [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) first; full log at [`lighthouse/ancestry/conversation.md`](EXAMPLEmarbles/lighthouse/ancestry/conversation.md).
 
 | Marble | Path | Built with | Notes |
 |---|---|---|---|
