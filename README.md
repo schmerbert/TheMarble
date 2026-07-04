@@ -1,4 +1,6 @@
-# Marble Manual v3
+# The Marble — persistent memory and session handoff for AI agents
+
+*Marble Manual v3*
 
 [![verify](https://github.com/schmerbert/TheMarble/actions/workflows/verify.yml/badge.svg)](https://github.com/schmerbert/TheMarble/actions/workflows/verify.yml)
 
@@ -36,6 +38,10 @@ The rest of this repo wraps that machinery in its own working vocabulary. A **ma
 A prompt gives the model instructions.
 
 A marble gives the next model working conditions.
+
+## What problem does this solve?
+
+Long-term memory for LLM agents that doesn't rot. If your AI assistant forgets everything between sessions — or worse, *misremembers* — this pack is a set of conventions and enforced gates for agent memory, context persistence, and handoff between context windows. It labels stored context by provenance (user-decided vs. model-inferred vs. unverified), gates writes to trusted memory through code that can refuse bad records, and proves the refusals with hostile test suites. It works with any model or harness: Claude, GPT, Gemini, Cursor, Codex, Claude Code.
 
 ## Why would you want one?
 
