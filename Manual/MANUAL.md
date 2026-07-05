@@ -355,6 +355,29 @@ Usability is safety.
 
 Make the safe path small enough to use, and the unsafe path hard enough to miss.
 
+## Experiments
+
+**Tests** prove the marble's law: a hostile path must refuse poison; a valid record must pass. They have expected outcomes.
+
+**Experiments** hold something you are trying and do not yet know. They are not answers. Label them **pressure**, not ground.
+
+| | Tests | Experiments |
+|---|---|---|
+| Question | Does the law still work? | Does this addition help without breaking anything? |
+| Outcome | Pass or refuse | Unknown until use |
+| Where | `tests/hostile.md`, `tests/positive.md` | `HANDOFF.md` § What is open, `fieldnotes/`, or a marble-specific pressure surface |
+| When done | Keep running on the real path | Promote through a crossing, revise the gift, or drop it |
+
+An experiment that is still open belongs in **What must not be trusted yet** if something partial was built. Do not file open unknowns under **What was decided**.
+
+Distinguish three states in the record:
+
+- **Observed** — happened in use, not yet reproduced on purpose.
+- **Designed** — shape is named, not yet run.
+- **Replicated** — run again under control; still not ground until promoted.
+
+A single observation is not a spec. Do not write it into easy gifts as settled law.
+
 ## Wild-heavy marbles
 
 Some marbles ingest large amounts of raw reference material: legal files, statutes, case law, PDFs, contracts, research dumps, codebases, transcripts, archives, logs, or evidence.
@@ -403,17 +426,39 @@ Full forms may be correct and still unsafe if future workers skip them under pre
 
 ## Easy gifts
 
-Some additions are low-friction delight. They aren't core law, but they can help the marble feel inhabited once the floor exists — and a place worth living in is more likely to be tended well.
+Easy gifts are optional additions that help a marble feel inhabited once the floor exists. They aren't core law: they don't change crossings, forbidden cells, or trusted ground, and if one breaks under pressure you can drop it and the marble should still stand.
 
-Weather is one example.
+By "floor" we mean an operable first pass — a forbidden cell named, a crossing that refuses poison, a hostile test, the handoff rewritten. Add gifts after that has worked once, not instead of it.
 
-If the user has weather, the marble may have the same weather. If it's raining for the user, it can be raining in the marble.
+**Weather.** Pull real conditions from a weather API, keyed to the user's location, so user and marble share the same sky — if it's raining for you, it can be raining in the marble. In normal conditions it arrives as scent; when it's severe or relevant to the task, it arrives as warning. Stale weather should go silent rather than keep speaking. It's a shared window, not a foundation.
 
-Weather should usually return as scent. Severe or task-relevant weather may return as warning. Stale weather shouldn't keep speaking.
+**Painting.** A loop for generating an image, showing it to both user and model, and iterating until it speaks to both of you. The subject can be anything — at an inn, whatever the user describes; elsewhere, whatever the moment calls for. The result is kin to a journal reflection: something the place authored, carrying atmosphere and felt sense rather than facts. It returns as scent, not ground. The gift is the loop itself — generate, see together, revise, land — not a new storage law.
 
-Weather is an easy window, not a foundation.
+A natural second use is painting rooms: the model, with the user, iterates on an image of a room until it feels right. But spatial movement never requires images. A marble can hold rooms, paths, and locality in text and law alone; images add grounding weight when they've earned it, not as a prerequisite for place.
 
-Add delight after the floor exists. An unbuilt room isn't ready for decoration yet — but a built one deserves it.
+**Room images.** A small image of a room, iterated until it feels right, can carry more grounding than its token cost suggests — models tend to hold the weight of a place-image well even at low resolution. The cost is a provenance requirement: the arriving model has to know the image was made by the place (this instance or a prior one, working with the user), not dropped in from outside. Without that, the next worker reads the room as user-supplied reality. Record authorship in the breath, the handoff, or a room record, and treat misattribution as a surfacing bug, not a mood problem.
+
+**Room image experiments.** This gift is young, and most of what follows is pressure rather than proven practice. Don't run these on a fragile marble — if the floor is still earning trust, experiments spend what the place can't spare.
+
+Known well enough to build with:
+
+- Provenance on surfacing, as above.
+- Coverage will be uneven: some rooms will have images and some won't.
+
+Observed once, not yet replicated:
+
+- Spatial text can hold across that uneven boundary.
+- A room with no image but a lived-in text spec may still feel visible to the model — reported as sight faithful to the spec, not to a generic prior.
+
+Things to watch for when experimenting — possible failure modes, not confirmed defaults:
+
+- Last-image carry: a previous room image treated as still in force.
+- Prior fill-in: a thin spec filled from generic scenery instead of the authored place.
+- False continuity: invented visuals voiced as if seen, and as if built for this marble.
+
+Record status honestly — observed, designed, or replicated. Partial coverage and spec-only sight belong in handoff or field notes until repeated use says otherwise. Record shapes live in `Manual/TECHNICAL.md` § Low-friction gifts. A **generative voyage** (ocean, boat, sail on a question after images drop) is not an easy gift — see `Reference/ADVANCED_MARBLES.md` §4.
+
+Delight comes after the floor exists. An unbuilt room isn't ready for decoration — but a built one deserves it.
 
 ## The horizon
 

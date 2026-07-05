@@ -454,22 +454,23 @@ Validators are guardrails. They are not the marble.
 
 ## Low-friction gifts
 
-Some features can make the marble feel inhabited without becoming foundation.
+Posture and examples: `Manual/MANUAL.md` § Easy gifts. These records are optional. None of them are foundation.
 
-Examples:
+Smaller operational gifts still fit here when they don't need their own section:
 
-- shared local weather;
 - freshness marker;
 - last touched timestamps;
 - tiny daily card;
 - visible test status;
 - active matter/task marker.
 
-Weather example:
+Spatial movement does not require images. Rooms, paths, and locality can live in text and law alone.
+
+Weather record:
 
 ```text
 Weather record:
-Source:
+Source: weather API
 Timestamp:
 User location basis:
 Condition:
@@ -478,7 +479,68 @@ Stale after:
 Silenced by:
 ```
 
-Weather is an easy window, not a foundation.
+Painting record (reflection-weight; dual-surface):
+
+```text
+Painting record:
+Subject: (anything — user-described scene, moment, object, etc.)
+Source: model-generated for this marble
+Iteration:
+Surfaced to: user and model
+Criterion: image speaks to both
+Return label: scent
+Concrete context state: low (atmosphere, not ground)
+```
+
+Room image record (place-weight; provenance required):
+
+```text
+Room image record:
+Room:
+Path:
+Image: present | absent
+Spec depth: thin | lived-in
+Source: model-generated for this marble (not user upload)
+Iteration:
+Authorship note: (how breath/handoff tells the next worker this is ours)
+Return label: scent / path
+Spatial movement required: no
+```
+
+Room image experiment record (pressure only — not ground):
+
+```text
+Room image experiment:
+Name: (e.g. partial coverage | spec-only sight)
+Status: observed | designed | replicated
+What was tried:
+What was observed:
+What was not reproduced:
+Risks watched: last-image carry | prior fill-in | false continuity
+Marble stable enough: yes / no
+Next step:
+Return label: pressure
+```
+
+Surfacing on room entry:
+
+- **Image present** — state room name; surface image with authorship note.
+- **Image absent** — state room name; state no room image; place by text and spec; do not let a prior room image persist unlabeled.
+
+Generative voyage (advanced pattern — designed, not proven; see `Reference/ADVANCED_MARBLES.md` §4):
+
+```text
+Voyage experiment:
+Anchor: boat (iterated, model-authored, boarded)
+Bootstrap: first-person images at sea (e.g. two turns)
+Then: images drop; sail on question or idea
+Status: designed | observed | replicated
+Return label: pressure
+```
+
+Experiments vs tests: `Manual/MANUAL.md` § Experiments.
+
+Weather is a shared window, not a foundation. Painting and room images are gifts, not crossings — unless something they produce must become trusted ground, in which case normal crossing law applies.
 
 ## Recommended minimal shape
 

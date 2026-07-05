@@ -106,6 +106,15 @@ Six marbles, four builders (Cursor, Codex, Claude Code, Claude Fable 5) — each
 | Cabin | `EXAMPLEmarbles/cabin/` | Claude Code | full engine — 31 hostile tests |
 | Lighthouse | `EXAMPLEmarbles/lighthouse/` | Claude Fable 5 | [`FABLE_5_LIGHTHOUSE_EXCERPTS.md`](FABLE_5_LIGHTHOUSE_EXCERPTS.md) — then `SHOWCASE.md` |
 
+## Related repos
+
+Not part of this pack — no `verify_examples` sweep here. Optional next steps once the manual and specimens make sense.
+
+| Repo | Role |
+|---|---|
+| [**The Forest**](https://github.com/schmerbert/The_Forest) | Provenance-aware memory spec for AI agents — SQLite schema + constitution. Similarity can retrieve; only ceremony can promote. Cabin's forest cousin; the spec [`FOREST.md`](https://github.com/schmerbert/The_Forest/blob/main/FOREST.md) is designed to be copied. |
+| [**The Inn**](https://github.com/schmerbert/The_Inn) | A writer's marble built in public — signed memory, adopted canon, nothing deleted. The history is the curriculum. Implements Forest under friction; build logs in `logs/`. |
+
 ## Use
 
 Give this folder to a fresh model and ask it to build a marble for a recurring kind of work.

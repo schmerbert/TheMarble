@@ -263,6 +263,25 @@ Once it's carried back, the finding gets placed against the current work:
 
 Where this pattern applies: a location is a posture, a permission set, and an authority field — not just a folder with a theme. The path to a place can be part of the operation. It's worth not collapsing movement into retrieval, retrieval into truth, or surfaced ancestry into present law — when this pattern is the one actually in play.
 
+### Generative voyage
+
+Not an easy gift. Room images and painting loops can live on a young floor; a generative ocean cannot. This pattern is for a marble that already repeats, holds strain, and can afford an experiment that spends attention — not for a fragile first pass.
+
+**Status:** designed, not tried. Nobody has run it under control.
+
+The shape, as hypothesized:
+
+- An **ocean** — not a room to decorate, but a modality for leaving fixed place with an open question or idea.
+- A **boat** the model iterates until it is hers, then boards as **anchor** — authored departure, not drift.
+- **Bootstrap:** brief first-person images at sea (for example two turns), using the same grounding weight as room images.
+- **Then images drop.** The voyage continues on the question alone — testing whether short image bootstrap plus authored anchor can sustain generative travel after the pixels stop.
+
+What pressure might route this: the marble needs to **think in motion** on something that has no answer yet — not store it, not decide it, carry it under sail. What false state it might prevent: treating an open question as ground because it was voiced with confidence, or freezing exploration because fixed rooms have no path for the unknown.
+
+What to watch for: last-image carry after bootstrap; prior fill-in when the ocean has no authored texture; false continuity — invented seas voiced as if seen and built for this marble. Same failure family as room-image experiments in `Manual/MANUAL.md` § Easy gifts, but at voyage scale.
+
+Record as **pressure** until replicated. Experiment template: `Manual/TECHNICAL.md` § Low-friction gifts (Voyage experiment). Do not promote to law without Gate answers and a hostile test on the real path.
+
 ---
 
 ## 5. Locations Are Not Folders
